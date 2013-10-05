@@ -1,5 +1,44 @@
 %article.video
   .container
     .row
-      .urllg.span7.offset1
-        %img(src="#{@urllg}")
+      .video_large_cover.span7.offset1
+        %img(src="#{@video.urllg}")
+      .video_info.span3
+        %header
+          %h3= @video.title
+            %span Rating: 4.5/5.0
+          %p= @video.description
+          .actions
+            %a.btn.btn-primary(href="") Watch Now
+            %a.btn(hhref="") + My Queue
+
+%section.reviews.container
+  .row
+    .span10.offset1
+      %form
+        %fieldset
+          %label rate this video
+            %select(name="")
+              %option(value="5") 5 stars
+              %option(value="4") 4 stars
+              %option(value="3") 3 stars
+              %option(value="2") 2 stars
+              %option(value="1") 1 star
+            %label write review
+            %textarea.span6(name="" rows="6")
+          %fieldset.actions.clearfix
+            %input(type="submit" value="submit" class="btn")
+            %a(href="") cancel
+        %header
+          %h3 user reviews (253)
+        %ul
+          - 8.times do
+            %article.review
+              %li.row
+                .span2
+                  %span rating: 5 / 5
+                  %p by <a href="">Tyler P. Durdan</a>
+                .span8
+                  %p blah blah blahblah blah blah blahblah blah blah blahblah blah blah
+blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah
+
