@@ -193,7 +193,7 @@ PLATFORMS
 DEPENDENCIES
   bcrypt-ruby (= 3.0.1)
   bootstrap-sass
-  bootstrap_form (~> 1.0.0)
+  bootstrap_form
   carrierwave
   coffee-rails (~> 3.2.1)
   figaro
