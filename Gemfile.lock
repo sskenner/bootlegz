@@ -54,6 +54,9 @@ GEM
     excon (0.25.3)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    fabrication (2.8.1)
+    faker (1.2.0)
+      i18n (~> 0.5)
     figaro (0.7.0)
       bundler (~> 1.0)
       rails (>= 3, < 5)
@@ -196,6 +199,8 @@ DEPENDENCIES
   bootstrap_form
   carrierwave
   coffee-rails (~> 3.2.1)
+  fabrication
+  faker
   figaro
   fog
   haml-rails
