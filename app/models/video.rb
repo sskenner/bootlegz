@@ -9,12 +9,15 @@ class Video < ActiveRecord::Base
     where("title LIKE ?", "%#{search_term}%").order("created_at DESC")
   end
 
-  # def average_rates
-  #   rvs = reviews
-  #   if rvs.blank?
-  #     0.0
-  #   else
-  #     ( rvs.map( &:stars ).sum / rvs.size ).round(1)
-  #   end
-  # end
+  def average_rating
+    if self.reviews.count > 0
+      total_rating = 0
+      self.reviews.each do |review|
+        total_rating += review.rating
+      end
+      average = total_rating.to_f / self.reviews.count
+      return average.round(1)
+    end
+    return 0
+  end
 end
