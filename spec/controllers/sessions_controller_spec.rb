@@ -16,15 +16,12 @@ describe SessionsController do
 
   describe "POST create" do
     context "with valid credentials" do
+      let(:sam) { Fabricate(:user) }
       before do
-        sam = Fabricate(:user)
         post :create, email: sam.email, password: sam.password
       end
 
       it "puts the signed in user in the session" do
-        sam = Fabricate(:user)
-        post :create, email: sam.email, password: sam.password
-        # why do i get rspec error when i move these to before do above?
         expect(session[:user_id]).to eq(sam.id)
       end
 
