@@ -3,11 +3,11 @@
     .span10.offset1
       = form_tag sessions_path, class: 'sign_in' do
         %header
-          %h1 Sign in
+          %h1 authenticate
         %fieldset
           = label_tag :email, "email address"
           = email_field_tag :email
-          = label_tag :password
+          = label_tag :password, "password"
           = password_field_tag :password
         %fieldset.action
-          %input(type="submit" value="Sign in" class="btn")
+          %input(type="submit" value="sign in" class="btn")

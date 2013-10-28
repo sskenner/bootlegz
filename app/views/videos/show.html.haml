@@ -9,7 +9,7 @@
           %span= 'Rating: ' + @video.average_rating.to_s + ' / 5.0'
         %p= @video.description
         .actions
-          = link_to "+ onz deck", queue_items_path(video_id: @video.id), method: :post, class: 'btn'
+          = link_to "+ onz deck", queue_items_path(video_id: @video.id), method: :post, class: 'btn' unless current_user.queued_video?(@video)
 
 %section.reviews.container
   .row
