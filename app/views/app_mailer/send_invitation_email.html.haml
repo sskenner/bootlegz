@@ -1,0 +1,6 @@
+!!! 5
+%html(lang="en-US")
+  %body
+    %p you are invited by #{@invitation.inviter.full_name} to join bootlegz!
+    %p= @invitation.message
+    %p= link_to "accept this invitation", '#'

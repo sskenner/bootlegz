@@ -14,6 +14,7 @@ gem 'stripe'
 gem 'figaro'
 gem 'fabrication'
 gem 'faker'
+
 #gem 'therubyracer'
 
 group :assets do
@@ -37,6 +38,7 @@ group :test do
   gem 'shoulda-matchers'
   gem 'capybara'
   gem 'launchy'
+  gem 'capybara-email'
 end
 
 group :production do
