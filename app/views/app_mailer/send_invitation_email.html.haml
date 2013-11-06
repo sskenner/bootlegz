@@ -3,4 +3,4 @@
   %body
     %p you are invited by #{@invitation.inviter.full_name} to join bootlegz!
     %p= @invitation.message
-    %p= link_to "accept this invitation", '#'
+    %p= link_to "accept this invitation", register_with_token_url(@invitation.token)
