@@ -50,6 +50,8 @@ Myflix::Application.configure do
 
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false
+
+  # This makes app work for invitations
   Rails.application.routes.default_url_options[:host] = 'powerful-plains-3839.herokuapp.com'
   # Enable threaded mode
   # config.threadsafe!
