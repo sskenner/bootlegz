@@ -13,10 +13,11 @@
       %ul
         %li.dropdown
           %a(href="#" id="dlabel" role="button" data-toggle="dropdown" class="dropdown-toggle" data-target="#")
-            wagwon, #{current_user.full_name}
+            wah gwan, #{current_user.full_name}
             %b.caret
           %ul.dropdown-menu(role="menu" aria-labelledby="dlabel")
             %li
-              %a(href="#") Account
-              %a(href="#") Plan and Billing
+              = link_to "invite homie", new_invitation_path
+              %a(href="#") account
+              %a(href="#") plan & billing
               = link_to "sign out", sign_out_path
