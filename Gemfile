@@ -12,6 +12,8 @@ gem 'mini_magick'
 gem 'fog'
 gem 'stripe'
 gem 'figaro'
+gem 'fabrication'
+gem 'faker'
 #gem 'therubyracer'
 
 group :assets do

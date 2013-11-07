@@ -18,7 +18,10 @@ Video.create(title: "family guy", description: "family guy video", urlsm: "/tmp/
 Video.create(title: "south park", description: "south park video", urlsm: "/tmp/south_park.jpg", urllg: "/tmp/monk_large.jpg", category: comedies)
 Video.create(title: "south park", description: "south park video", urlsm: "/tmp/south_park.jpg", urllg: "/tmp/monk_large.jpg", category: comedies)
 Video.create(title: "south park", description: "south park video", urlsm: "/tmp/south_park.jpg", urllg: "/tmp/monk_large.jpg", category: comedies)
-Video.create(title: "hackers", description: "hackers video", urlsm: "/tmp/hackers.jpeg", urllg: "/tmp/hackers_large.jpeg", category: fantasies)
+hackers = Video.create(title: "hackers", description: "hackers video", urlsm: "/tmp/hackers.jpeg", urllg: "/tmp/hackers_large.jpeg", category: fantasies)
 Video.create(title: "anon", description: "anon video", urlsm: "/tmp/legion.jpeg", urllg: "/tmp/hackers_large.jpeg", category: fantasies)
 
+firstuser = User.create(full_name: "first user", password: "first", email: "first@first.com")
 
+Review.create(user: firstuser, video: hackers, rating: 5, content: "da shizznick son!")
+Review.create(user: firstuser, video: hackers, rating: 3, content: "angelina joli .. nuff said!")
