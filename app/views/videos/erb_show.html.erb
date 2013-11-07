@@ -1,0 +1,65 @@
+<article class="video">
+  <div class="container">
+    <div class="row">
+      <div class="video_large_cover span7 offset1">
+        <img/>
+      </div>
+      <div class="video_info span3">
+        <header>
+          <h3>
+            <%= @video.title %>
+          </h3>
+          <span>Rating: 4.5/5.0</span>
+        </header>
+        <p>
+          <%= @video.description %>
+        </p>
+        <div class="actions">
+          <a class="btn btn-primary">(href="") Watch Now</a>
+          <a class="btn">(href="") + My Queue</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<section class="reviews container">
+  <div class="row">
+    <div class="span10 offset1">
+      <form>
+        <fieldset>
+          <label>rate this video</label>
+          <select>(name="")
+            <option>(value="5") 5 stars</option>
+            <option>(value="4") 4 stars</option>
+            <option>(value="3") 3 stars</option>
+            <option>(value="2") 2 stars</option>
+            <option>(value="1") 1 star</option>
+          </select>
+          <label>write review</label>
+          <textarea class="span6">(name="" rows="6")</textarea>
+        </fieldset>
+        <fieldset class="actions clearfix">
+          <input>(type="submit" value="submit" class="btn")</input>
+          <a>(href="") cancel</a>
+        </fieldset>
+      </form>
+      <header>
+        <h3>user reviews (253)</h3>
+      </header>
+      <ul>
+        <% 8.times do %>
+          <article class="review">
+            <li class="row">
+              <div class="span2">
+                <span>rating: 5 / 5</span>
+                <p>by <a href="">Tyler P. Durdan</a></p>
+              </div>
+              <div class="span8"></div>
+              <p>blah blah blahblah blah blah blahblah blah blah blahblah blah blah</p>
+            </li>
+          </article>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</section>
