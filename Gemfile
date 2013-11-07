@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.11'
 gem 'haml-rails'
 gem 'bootstrap-sass'
-gem 'bootstrap_form', '~> 1.0.0'
+gem 'bootstrap_form'
 gem 'bcrypt-ruby', '=3.0.1'
 gem 'sidekiq'
 gem 'unicorn'
@@ -12,6 +12,9 @@ gem 'mini_magick'
 gem 'fog'
 gem 'stripe'
 gem 'figaro'
+gem 'fabrication'
+gem 'faker'
+
 #gem 'therubyracer'
 
 group :assets do
@@ -22,8 +25,20 @@ end
 
 group :development do
   gem 'sqlite3'
+  gem 'letter_opener'
+end
+
+group :test, :development do
+  gem 'rspec-rails'
   gem 'pry'
   gem 'pry-nav'
+end
+
+group :test do
+  gem 'shoulda-matchers'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'capybara-email'
 end
 
 group :production do

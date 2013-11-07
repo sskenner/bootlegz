@@ -1,21 +1,23 @@
 %section#top-header.row
   %h1.span2
     = link_to "bootlegz", root_path
-  %ul.span4.clearfix
-    %li= link_to "flikz"
-    %li= link_to "on deck"
-    %li= link_to "peeps"
-  %form.span5.for-search(action="")
-    %input.search-query(type="text" placeholder="Search for videos here")
-    %button.btn(type="submit") Search
-  #user_links.pull-right
-    %ul
-      %li.dropdown
-        %a(href="#" id="dlabel" role="button" data-toggle="dropdown" class="dropdown-toggle" data-target="#")
-          Welcome, Tyler P. Durdan
-          %b.caret
-        %ul.dropdown-menu(role="menu" aria-labelledby="dlabel")
-          %li
-            %a(href="#") Account
-            %a(href="#") Plan and Billing
-            %a(href="#") Sign Out
+  - if current_user
+    %ul.span4.clearfix
+      %li= link_to "flikz", home_path
+      %li= link_to "onz deck", my_queue_path
+      %li= link_to "peepz", people_path
+    = form_tag search_videos_path, class: "span5 for-search" do
+      %input.search-query(name="search_term" type="text" placeholder="seek flikz aqui")
+      %button.btn(type="submit") Search
+    #user_links.pull-right
+      %ul
+        %li.dropdown
+          %a(href="#" id="dlabel" role="button" data-toggle="dropdown" class="dropdown-toggle" data-target="#")
+            wah gwan, #{current_user.full_name}
+            %b.caret
+          %ul.dropdown-menu(role="menu" aria-labelledby="dlabel")
+            %li
+              = link_to "invite homie", new_invitation_path
+              %a(href="#") account
+              %a(href="#") plan & billing
+              = link_to "sign out", sign_out_path

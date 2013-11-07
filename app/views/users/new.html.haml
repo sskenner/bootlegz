@@ -1,0 +1,14 @@
+%section.register.container
+  .row
+    .span10.offset1
+      = bootstrap_form_for @user, html: { class: "form-horizontal" } do |f|
+        %header
+          %h1 register
+        %fieldset
+          = f.email_field :email, label: "email address"
+          = f.password_field :password, label: "password"
+          = f.text_field :full_name, label: "full name"
+          = hidden_field_tag :invitation_token, @invitation_token
+        %fieldset.actions.control-group
+          .controls
+            %input(type="submit" value="sign up" class="btn")
