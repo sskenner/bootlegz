@@ -14,7 +14,7 @@ describe QueueItem do
   end
 
   describe "#rating" do
-    it "returns the title from the review when the review is present" do
+    it "returns the rating from the review when the review is present" do
       video = Fabricate(:video)
       user = Fabricate(:user)
       review = Fabricate(:review, user: user, video: video, rating: 4)
