@@ -5,26 +5,20 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+fantasies = Category.create(name: "Fantasies")
+comedies = Category.create(name: "Comedies")
+dramas = Category.create(name: "Dramas")
 
-2.times do |i|
-  Video.create(title: "monk #{i+1}", description: "monk video", urlsm: "/tmp/monk.jpg", urllg: "/tmp/monk_large.jpg")
-  Video.create(title: "futurama #{i+1}", description: "futurama video", urlsm: "/tmp/futurama.jpg", urllg: "/tmp/monk_large.jpg")
-  Video.create(title: "family guy #{i+1}", description: "family guy video", urlsm: "/tmp/family_guy.jpg", urllg: "/tmp/monk_large.jpg")
-  Video.create(title: "south park #{i+1}", description: "south park video", urlsm: "/tmp/south_park.jpg", urllg: "/tmp/monk_large.jpg")
-end
+Video.create(title: "monk", description: "monk video", urlsm: "/tmp/monk.jpg", urllg: "/tmp/monk_large.jpg", category: dramas)
+Video.create(title: "futurama", description: "futurama video", urlsm: "/tmp/futurama.jpg", urllg: "/tmp/monk_large.jpg", category: comedies)
+Video.create(title: "family guy", description: "family guy video", urlsm: "/tmp/family_guy.jpg", urllg: "/tmp/monk_large.jpg", category: comedies)
+Video.create(title: "monk", description: "monk video", urlsm: "/tmp/monk.jpg", urllg: "/tmp/monk_large.jpg", category: dramas)
+Video.create(title: "futurama", description: "futurama video", urlsm: "/tmp/futurama.jpg", urllg: "/tmp/monk_large.jpg", category: comedies)
+Video.create(title: "family guy", description: "family guy video", urlsm: "/tmp/family_guy.jpg", urllg: "/tmp/monk_large.jpg", category: comedies)
+Video.create(title: "south park", description: "south park video", urlsm: "/tmp/south_park.jpg", urllg: "/tmp/monk_large.jpg", category: comedies)
+Video.create(title: "south park", description: "south park video", urlsm: "/tmp/south_park.jpg", urllg: "/tmp/monk_large.jpg", category: comedies)
+Video.create(title: "south park", description: "south park video", urlsm: "/tmp/south_park.jpg", urllg: "/tmp/monk_large.jpg", category: comedies)
+Video.create(title: "hackers", description: "hackers video", urlsm: "/tmp/hackers.jpeg", urllg: "/tmp/hackers_large.jpeg", category: fantasies)
+Video.create(title: "anon", description: "anon video", urlsm: "/tmp/legion.jpeg", urllg: "/tmp/hackers_large.jpeg", category: fantasies)
 
-Category.create(name: "Comedies TV")
-Category.create(name: "Drama TV")
-Category.create(name: "Reality TV")
 
-category = Category.find(1)
-videos = Video.limit(6)
-videos.each do |video|
-  video.categories << category
-end
-
-category = Category.find(2)
-videos = Video.limit(6).offset(6)
-videos.each do |video|
-  video.categories << category
-end

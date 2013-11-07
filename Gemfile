@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.11'
 gem 'haml-rails'
 gem 'bootstrap-sass'
-gem 'bootstrap_form', '~> 1.0.0'
+gem 'bootstrap_form'
 gem 'bcrypt-ruby', '=3.0.1'
 gem 'sidekiq'
 gem 'unicorn'
@@ -24,6 +24,14 @@ group :development do
   gem 'sqlite3'
   gem 'pry'
   gem 'pry-nav'
+end
+
+group :test, :development do
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem 'shoulda-matchers'
 end
 
 group :production do
