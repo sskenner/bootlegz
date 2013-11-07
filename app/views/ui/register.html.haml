@@ -3,10 +3,10 @@
     .span10.offset1
       %form.form-horizontal
         %header
-          %h1 Register
+          %h1 register
         %fieldset
           .control-group
-            %label.control-label Email Address
+            %label.control-label email address
             .controls
               %input.span3(type="email")
           .control-group
@@ -33,4 +33,4 @@
               = select_year(Date.today.year, {start_year: Date.today.year, end_year: Date.today.year + 4}, class: 'span1')
         %fieldset.actions.control-group
           .controls
-            %input(type="submit" value="Sign Up" class="btn")
+            %input(type="submit" value="sign up" class="btn")
