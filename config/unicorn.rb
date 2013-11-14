@@ -3,6 +3,10 @@ worker_processes Integer(ENV["WEB_CONCURRENCY"] || 3)
 timeout 15
 preload_app true
 
+# before_fork do |server, worker|
+#   @sidekick_pid ||= spawn("bundle exec sidekiq -c 2")
+# end
+
 before_fork do |server, worker|
   Signal.trap 'TERM' do
     puts 'Unicorn master intercepting TERM and sending myself QUIT instead'
@@ -13,6 +17,15 @@ before_fork do |server, worker|
     ActiveRecord::Base.connection.disconnect!
 end
 
+# after_fork do |server, worker|
+#   Sidekiq.configure_client do |config|
+#     config.redis = { :size => 1 }
+#   end
+#   Sidekiq.configure_server do |config|
+#     config.redis = { :size => 5 }
+#   end
+# end
+
 after_fork do |server, worker|
   Signal.trap 'TERM' do
     puts 'Unicorn worker intercepting TERM and doing nothing. Wait for master to send QUIT'
@@ -22,3 +35,7 @@ after_fork do |server, worker|
     ActiveRecord::Base.establish_connection
 end
 
+##########################
+# in procfile as per https://coderwall.com/p/fprnhg
+# web: bundle exec unicorn -p $PORT -E $RACK_ENV -c ./config/unicorn.rb
+##########################
