@@ -15,6 +15,8 @@ gem 'stripe'
 gem 'figaro'
 gem 'fabrication'
 gem 'faker'
+gem 'vcr'
+gem 'webmock', '1.11.0'
 
 #gem 'therubyracer'
 
@@ -40,6 +42,8 @@ group :test do
   gem 'capybara'
   gem 'launchy'
   gem 'capybara-email'
+  gem 'selenium-webdriver'
+  gem 'database_cleaner'
 end
 
 group :production do
