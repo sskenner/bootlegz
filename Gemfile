@@ -17,7 +17,7 @@ gem 'fabrication'
 gem 'faker'
 gem 'vcr'
 gem 'webmock', '1.11.0'
-
+gem 'draper'
 #gem 'therubyracer'
 
 group :assets do
