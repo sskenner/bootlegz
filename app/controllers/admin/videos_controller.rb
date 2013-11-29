@@ -1,6 +1,6 @@
-class Admin::VideosController < ApplicationController
+class Admin::VideosController < AdminsController
   before_filter :require_user
-  before_filter :require_admin
+  before_filter :require_admin #why doesnt it inherit from AdminsController
 
   def new
     @video = Video.new
@@ -14,15 +14,6 @@ class Admin::VideosController < ApplicationController
     else
       flash[:error] = "the video was not added .. please check the errors"
       render :new
-    end
-  end
-
-  private
-
-  def require_admin
-    if !current_user.admin?
-      flash[:error] = "you know you arent autherized to do that"
-      redirect_to home_path
     end
   end
 end

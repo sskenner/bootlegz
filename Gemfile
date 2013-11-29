@@ -12,11 +12,11 @@ gem 'carrierwave'
 gem 'mini_magick'
 gem 'fog'
 gem 'stripe'
+gem 'stripe_event'
 gem 'figaro'
 gem 'fabrication'
 gem 'faker'
 gem 'vcr'
-gem 'webmock', '1.11.0'
 gem 'draper'
 #gem 'therubyracer'
 
@@ -44,6 +44,7 @@ group :test do
   gem 'capybara-email'
   gem 'selenium-webdriver'
   gem 'database_cleaner'
+  gem 'webmock', '1.11.0'
 end
 
 group :production do
