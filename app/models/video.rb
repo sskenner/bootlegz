@@ -13,15 +13,21 @@ class Video < ActiveRecord::Base
     where("title LIKE ?", "%#{search_term}%").order("created_at DESC")
   end
 
-  def average_rating
-    if self.reviews.count > 0
-      total_rating = 0
-      self.reviews.each do |review|
-        total_rating += review.rating
-      end
-      average = total_rating.to_f / self.reviews.count
-      return average.round(1)
-    end
-    return 0
+  def rating
+    reviews.average(:rating).round(1) if reviews.average(:rating)
   end
+  ### if use put        ###
+  #           %span= 'Rating: ' + @video.average_rating.to_s + ' / 5.0'
+  ### in show.html.haml ###
+  # def average_rating
+  #   if self.reviews.count > 0
+  #     total_rating = 0
+  #     self.reviews.each do |review|
+  #       total_rating += review.rating
+  #     end
+  #     average = total_rating.to_f / self.reviews.count
+  #     return average.round(1)
+  #   end
+  #   return 0
+  # end
 end
