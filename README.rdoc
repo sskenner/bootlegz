@@ -4,36 +4,36 @@ MyFlix (aka bootlegz), a Netflix clone, is a production quality web application 
 
        Topic areas:
 
-Testing
+==Testing
 <code>Syntax</code> •  
 <code>Test driven development process</code> •  
 <code>Automated testing advanced techniques</code> •  
 <code>Test level determination</code> •  
-Advanced rails topics
+==Advanced rails topics
 <code>Advanced routing concerns</code> •  
 <code>Background drops</code> •  
 <code>Integration</code> •  
 <code>Complex forms</code> •  
 <code>Custom form builders</code> •  
 <code>Advanced modeling / querying techniques</code> •  
-Integration
+==Integration
 <code>3rd party apps</code> •  
 <code>Consume and test APIs</code> •  
 <code>API integration exposure and testing</code> •  
-Workflows
+==Workflows
 <code>App behaviors</code> •  
 <code>Rules</code> •  
 <code>Subsystems involvement (web, background drops, emails)</code> •  	
-Architecture to manage complexity</code> •  
+<code>Architecture to manage complexity</code> •  
 <code>Modular and organized code development</code> •  
-e-Commerce
+==e-Commerce
 <code>Payments processing</code> •  
 <code>Record keeping</code> •  
 <code>Account management</code> •  
 <code>Access control and privileges</code> •  
 <code>Recurring billing</code> •  
 <code>Cancelation</code> •  
-Production application maintenance concerns (post launch)
+==Production application maintenance concerns (post launch)
 <code>Staging servers</code> •  
 <code>Data migration / backup</code> •  
 <code>Performance monitoring</code> •  
