@@ -5,37 +5,37 @@ MyFlix (aka bootlegz), a Netflix clone, is a production quality web application 
        Topic areas:
 
 Testing
-- Syntax 
-- Test driven development process
-- Automated testing advanced techniques
-- Test level determination
+<code>Syntax</code> •  
+<code>Test driven development process</code> •  
+<code>Automated testing advanced techniques</code> •  
+<code>Test level determination</code> •  
 Advanced rails topics
-- Advanced routing concerns
-- Background drops
-- Integration
-- Complex forms
-- Custom form builders
-- Advanced modeling / querying techniques
+<code>Advanced routing concerns</code> •  
+<code>Background drops</code> •  
+<code>Integration</code> •  
+<code>Complex forms</code> •  
+<code>Custom form builders</code> •  
+<code>Advanced modeling / querying techniques</code> •  
 Integration
-- 3rd party apps
-- Consume and test APIs
-- API integration exposure and testing
+<code>3rd party apps</code> •  
+<code>Consume and test APIs</code> •  
+<code>API integration exposure and testing</code> •  
 Workflows
-- App behaviors
-- Rules
-- Subsystems involvement (web, background drops, emails)	
-Architecture to manage complexity
-- Modular and organized code development
+<code>App behaviors</code> •  
+<code>Rules</code> •  
+<code>Subsystems involvement (web, background drops, emails)</code> •  	
+Architecture to manage complexity</code> •  
+<code>Modular and organized code development</code> •  
 e-Commerce
-- Payments processing
-- Record keeping
-- Account management
-- Access control and privileges
-- Recurring billing
-- Cancelation
+<code>Payments processing</code> •  
+<code>Record keeping</code> •  
+<code>Account management</code> •  
+<code>Access control and privileges</code> •  
+<code>Recurring billing</code> •  
+<code>Cancelation</code> •  
 Production application maintenance concerns (post launch)
-- Staging servers
-- Data migration / backup
-- Performance monitoring
-- Exception handling
-- Asset hosting, et al
+<code>Staging servers</code> •  
+<code>Data migration / backup</code> •  
+<code>Performance monitoring</code> •  
+<code>Exception handling</code> •  
+<code>Asset hosting, et al</code> •  
