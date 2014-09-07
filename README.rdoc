@@ -15,7 +15,7 @@ http://sskenner.github.io/assets/3_bootlegz_authenticate.png
 <code>Forgot Password</code>
 http://sskenner.github.io/assets/4_bootlegz_forgot_pw.png
 
-<code>Auto Email (Mailgun and Automailer)</code>
+<code>Auto Email (Action Mailer & Mailgun)</code> Mailgun and
 http://sskenner.github.io/assets/5_bootlegz_mailgun.png
 
 <code>Invite Others</code>
