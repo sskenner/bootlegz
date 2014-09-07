@@ -6,22 +6,33 @@ bootlegz, a Netflix clone, is a production quality web application of non-trivia
 
 ==Features:
 
+<code></code> •
+
+<code>e-Commerce</code> •
 http://sskenner.github.io/assets/2_bootlegz_registration.png
 
+<code>Authentication</code> •
 http://sskenner.github.io/assets/3_bootlegz_authenticate.png
 
+<code>Forgot Password</code> •
 http://sskenner.github.io/assets/4_bootlegz_forgot_pw.png
 
+<code>Auto Email (Mailgun and Automailer)</code> •
 http://sskenner.github.io/assets/5_bootlegz_mailgun.png
 
+<code>Invite Others</code> •
 http://sskenner.github.io/assets/6_bootlegz_categories.png
 
+<code>User Reviews</code> • <code>Ratings</code> • <code>Play Video</code> •
 http://sskenner.github.io/assets/7_bootlegz__video_info.png
 
+<code>Queue & Rating Management</code> •
 http://sskenner.github.io/assets/8_bootlegz_my_queue.png
 
+<code>Social Networking</code> •
 http://sskenner.github.io/assets/9_bootlegz_following.png
 
+<code>Staging & Production Server Setup</code> • <code>Sidekiq & Unicorn workers</code> •
 http://sskenner.github.io/assets/10_bootlegz_heroku.png
 
 ==Topic areas:
@@ -47,7 +58,8 @@ http://sskenner.github.io/assets/10_bootlegz_heroku.png
 <code>Rules</code> •
 <code>Subsystems involvement (web, background drops, emails)</code> •
 <code>Architecture to manage complexity</code> •
-<code>Modular and organized code development</code>
+<code>Modular and organized code development</code> •
+<code>Deployment Pipeline</code>
 ==e-Commerce
 <code>Payments processing</code> •
 <code>Record keeping</code> •
