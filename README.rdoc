@@ -1,9 +1,28 @@
-bootlegz
-========
+==bootlegz
 
 http://sskenner.github.io/assets/1_bootlegz_homepage.png
 
 bootlegz, a Netflix clone, is a production quality web application of non-trivial size and complexity built in a RoR bootcamp. Although the un-wired template of the UI was provided by the Tealeaf Academy crew link:http://gotealeaf.com, yours truly coded all of the features and functionality.  The app is currently sleeping on heroku. Please contact me if you would like me to wake it up and forward the link for review.
+
+==Features:
+
+http://sskenner.github.io/assets/2_bootlegz_registration.png
+
+http://sskenner.github.io/assets/3_bootlegz_authenticate.png
+
+http://sskenner.github.io/assets/4_bootlegz_forgot_pw.png
+
+http://sskenner.github.io/assets/5_bootlegz_mailgun.png
+
+http://sskenner.github.io/assets/6_bootlegz_categories.png
+
+http://sskenner.github.io/assets/7_bootlegz__video_info.png
+
+http://sskenner.github.io/assets/8_bootlegz_my_queue.png
+
+http://sskenner.github.io/assets/9_bootlegz_following.png
+
+http://sskenner.github.io/assets/10_bootlegz_heroku.png
 
 ==Topic areas:
 
