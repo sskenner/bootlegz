@@ -6,33 +6,31 @@ bootlegz, a Netflix clone, is a production quality web application of non-trivia
 
 ==Features:
 
-<code></code> •
-
-<code>e-Commerce</code> •
+<code>e-Commerce</code> • <code>Stripe integration</code>
 http://sskenner.github.io/assets/2_bootlegz_registration.png
 
-<code>Authentication</code> •
+<code>Authentication</code>
 http://sskenner.github.io/assets/3_bootlegz_authenticate.png
 
-<code>Forgot Password</code> •
+<code>Forgot Password</code>
 http://sskenner.github.io/assets/4_bootlegz_forgot_pw.png
 
-<code>Auto Email (Mailgun and Automailer)</code> •
+<code>Auto Email (Mailgun and Automailer)</code>
 http://sskenner.github.io/assets/5_bootlegz_mailgun.png
 
-<code>Invite Others</code> •
+<code>Invite Others</code>
 http://sskenner.github.io/assets/6_bootlegz_categories.png
 
-<code>User Reviews</code> • <code>Ratings</code> • <code>Play Video</code> •
+<code>User Reviews</code> • <code>Ratings</code> • <code>Watch Video</code>
 http://sskenner.github.io/assets/7_bootlegz__video_info.png
 
-<code>Queue & Rating Management</code> •
+<code>Queue & Rating Management</code>
 http://sskenner.github.io/assets/8_bootlegz_my_queue.png
 
-<code>Social Networking</code> •
+<code>Social Networking</code>
 http://sskenner.github.io/assets/9_bootlegz_following.png
 
-<code>Staging & Production Server Setup</code> • <code>Sidekiq & Unicorn workers</code> •
+<code>Staging & Production Server Setup</code> • <code>Sidekiq & Unicorn workers</code>
 http://sskenner.github.io/assets/10_bootlegz_heroku.png
 
 ==Topic areas:
