@@ -1,41 +1,43 @@
-==MyFlix (aka bootlegz)
+==bootlegz
+
+![bootlegz homepage](sskenner.github.io/assets/1_bootlegz_homepage.png)
 
 MyFlix (aka bootlegz), a Netflix clone, is a production quality web application of non-trivial size and complexity built in a RoR bootcamp. Although the un-wired template of the UI was provided by the Tealeaf Academy crew link:http://gotealeaf.com, yours truly coded all of the features and functionality.  The app is currently sleeping on heroku. Please contact me if you would like me to wake it up and forward the link for review.
 
 ==Topic areas:
 
 ==Testing
-<code>Syntax</code> •  
-<code>Test driven development process</code> •  
-<code>Automated testing advanced techniques</code> •  
-<code>Test level determination</code>  
+<code>Syntax</code> •
+<code>Test driven development process</code> •
+<code>Automated testing advanced techniques</code> •
+<code>Test level determination</code>
 ==Advanced rails topics
-<code>Advanced routing concerns</code> •  
-<code>Background drops</code> •  
-<code>Integration</code> •  
-<code>Complex forms</code> •  
-<code>Custom form builders</code> •  
-<code>Advanced modeling / querying techniques</code>  
+<code>Advanced routing concerns</code> •
+<code>Background drops</code> •
+<code>Integration</code> •
+<code>Complex forms</code> •
+<code>Custom form builders</code> •
+<code>Advanced modeling / querying techniques</code>
 ==Integration
-<code>3rd party apps</code> •  
-<code>Consume and test APIs</code> •  
-<code>API integration exposure and testing</code> 
+<code>3rd party apps</code> •
+<code>Consume and test APIs</code> •
+<code>API integration exposure and testing</code>
 ==Workflows
-<code>App behaviors</code> •  
-<code>Rules</code> •  
-<code>Subsystems involvement (web, background drops, emails)</code> •  	
-<code>Architecture to manage complexity</code> •  
+<code>App behaviors</code> •
+<code>Rules</code> •
+<code>Subsystems involvement (web, background drops, emails)</code> •
+<code>Architecture to manage complexity</code> •
 <code>Modular and organized code development</code>
 ==e-Commerce
-<code>Payments processing</code> •  
-<code>Record keeping</code> •  
-<code>Account management</code> •  
-<code>Access control and privileges</code> •  
-<code>Recurring billing</code> •  
+<code>Payments processing</code> •
+<code>Record keeping</code> •
+<code>Account management</code> •
+<code>Access control and privileges</code> •
+<code>Recurring billing</code> •
 <code>Cancelation</code>
 ==Production application maintenance concerns (post launch)
-<code>Staging servers</code> •  
-<code>Data migration / backup</code> •  
-<code>Performance monitoring</code> •  
-<code>Exception handling</code> •  
+<code>Staging servers</code> •
+<code>Data migration / backup</code> •
+<code>Performance monitoring</code> •
+<code>Exception handling</code> •
 <code>Asset hosting, et al</code>
