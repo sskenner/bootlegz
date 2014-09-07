@@ -21,7 +21,7 @@ http://sskenner.github.io/assets/5_bootlegz_mailgun.png
 <code>Invite Others</code>
 http://sskenner.github.io/assets/6_bootlegz_categories.png
 
-<code>User Reviews</code> • <code>Ratings</code> • <code>Watch Video</code>
+<code>User Reviews & Ratings</code> • <code>Watch Video</code>
 http://sskenner.github.io/assets/7_bootlegz__video_info.png
 
 <code>Queue & Rating Management</code>
@@ -31,6 +31,7 @@ http://sskenner.github.io/assets/8_bootlegz_my_queue.png
 http://sskenner.github.io/assets/9_bootlegz_following.png
 
 <code>Staging & Production Server Setup</code> • <code>Sidekiq & Unicorn workers</code>
+ • <code>Redis background jobs</code>
 http://sskenner.github.io/assets/10_bootlegz_heroku.png
 
 ==Topic areas:
