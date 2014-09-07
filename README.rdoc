@@ -1,6 +1,5 @@
 ==bootlegz
 
-![alt tag](https://raw.github.com/sskenner/sskenner.github.io/assets/1_bootlegz_homepage.png)
 ![alt tag](http://sskenner.github.io/assets/1_bootlegz_homepage.png)
 
 MyFlix (aka bootlegz), a Netflix clone, is a production quality web application of non-trivial size and complexity built in a RoR bootcamp. Although the un-wired template of the UI was provided by the Tealeaf Academy crew link:http://gotealeaf.com, yours truly coded all of the features and functionality.  The app is currently sleeping on heroku. Please contact me if you would like me to wake it up and forward the link for review.
