@@ -2,7 +2,7 @@
 
 http://sskenner.github.io/assets/1_bootlegz_homepage.png
 
-bootlegz, a Netflix clone, is a production quality web application of non-trivial size and complexity built in a RoR bootcamp. Although the un-wired template of the UI was provided by the Tealeaf Academy crew link:http://gotealeaf.com, yours truly coded all of the features and functionality.  The app is currently sleeping on heroku. Please contact me if you would like me to wake it up and forward the link for review.
+bootlegz, a Netflix clone, is a production quality web application of non-trivial size and complexity built as a project for a web development bootcamp. All features and functionality coded by yours truly.  The app is currently depolyed (and most likely sleeping) on heroku.
 
 ==Features:
 
