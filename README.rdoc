@@ -1,6 +1,6 @@
 ==bootlegz
 
-Bootlegz, a Netflix clone, is a production quality web application of non-trivial size and complexity built as a project for a web development bootcamp. All features and functionality has been coded by yours truly. The app is currently depolyed (and most likely sleeping) on heroku.
+Bootlegz, a Netflix clone, is a production quality web application of non-trivial size and complexity. All features and functionality has been coded by yours truly. The app is currently deployed (and most likely sleeping) on heroku.
 
 http://sskenner.github.io/assets/1_bootlegz_homepage.png
 
