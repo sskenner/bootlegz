@@ -64,7 +64,7 @@ http://sskenner.github.io/assets/10_bootlegz_heroku.png
 <code>Account management</code> •
 <code>Access control and privileges</code> •
 <code>Recurring billing</code> •
-<code>Cancelation</code>
+<code>Cancellation</code>
 ==Production application maintenance concerns (post launch)
 <code>Staging servers</code> •
 <code>Data migration / backup</code> •
